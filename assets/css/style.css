@@ -1,0 +1,131 @@
+/*Aufgabenstellung
+
+Eine kleine Reiseveranstaltungs-Agentur, die expandieren möchte, braucht eine Website. 
+Der Designer hat das Projekt bearbeitet und sendet euch dieses Layout. (Das Bild des Modells wird in den Ordner eingefügt).
+
+Aber der Designer hatte keine gute Idee, wie man die Sozial-Media-Links in die Website einbindet. Bitte finde eine Lösung.
+
+Die Verfügbarkeit der Reise wird mit CSS-Pseudo-Elementen dargestellt.
+*/
+@font-face {
+    font-family: Cinzel;
+    src: url('/assets/font/Cinzel/Cinzel-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: Poppins;
+    src: url('/assets/font/Poppins/Poppins-Regular.ttf');
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+body {
+    font-family: Cinzel;
+}
+
+nav .logo{
+    color: #999;
+    margin: 20px 40px 20px 40px
+}
+.header{
+    background-image: url('https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+    height: 400px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    padding-top: 150px;
+}
+main{
+    color: #333;
+}
+
+.main-titel {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 50px;
+}
+.paragaph {
+    font-family: Poppins;
+    text-align: center;
+    font-size: 12px;
+    margin: 50px 85px;
+}
+div img{
+    display: inline-block;
+    width: 250px;
+    margin: 30px;
+    
+}
+.main-img{
+    text-align: center;
+}
+.main-list {
+    font-family: Poppins;
+    margin: 30px 30px 85px 85px;
+}
+.main-list li {
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+}
+.col-red {
+    color: red;
+}
+.col-green {
+    color: green;
+}
+span {
+    margin-left: 10px;
+}
+footer {
+    border-top: 1px solid #ccc;
+    background-color: lightgrey;
+    
+}
+.contact {
+    font-family: Cinzel;
+    font-weight: lighter;
+    margin-top: 30px;
+    text-align: center;
+}
+.foot-list li {
+    display: inline-block;
+    margin: 5px;
+}
+footer ul{
+    text-align: center;
+
+}
+li img {
+    width: 30px;
+    height: 30px;
+}
+.contact-form {
+    margin-top: 20px;
+    font-family: Poppins;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-button {
+    display: block;
+    text-decoration: none;
+    background-color: #333;
+    width: fit-content;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
